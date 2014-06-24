@@ -10,6 +10,6 @@
 
 @implementation MainScene
 -(void)play{
-    CCLOG("Play works");
+    CCLOG(@"Play works");
 }
 @end
