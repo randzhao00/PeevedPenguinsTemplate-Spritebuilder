@@ -305,8 +305,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -340,8 +338,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>102</real>
-							<real>43</real>
+							<real>64.704704284667969</real>
+							<real>54.654781341552734</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -354,8 +352,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.55067294836044312</real>
+							<real>0.54107069969177246</real>
 						</array>
 					</dict>
 					<dict>
@@ -429,8 +427,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>195</real>
-							<real>31</real>
+							<real>171.69046020507812</real>
+							<real>36.827392578125</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -518,8 +516,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>145.33808898925781</real>
-							<real>86.841651916503906</real>
+							<real>122.02852630615234</real>
+							<real>93.834518432617188</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -607,8 +605,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>101.32382202148438</real>
-							<real>86.338088989257812</real>
+							<real>64.028526306152344</real>
+							<real>96.827392578125</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -696,8 +694,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>122.17974090576172</real>
-							<real>120.67617797851562</real>
+							<real>91.877311706542969</real>
+							<real>125.33808898925781</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -844,7 +842,7 @@
 			</dict>
 		</array>
 		<key>customClass</key>
-		<string></string>
+		<string>level1</string>
 		<key>displayName</key>
 		<string>CCNode</string>
 		<key>memberVarAssignmentName</key>
@@ -913,6 +911,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
