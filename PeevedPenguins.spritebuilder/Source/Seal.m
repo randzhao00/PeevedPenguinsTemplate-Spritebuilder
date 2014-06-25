@@ -9,14 +9,11 @@
 #import "Seal.h"
 
 @implementation Seal
-//- (id)init {
-//    self = [super init];
-//    
-//    if (self) {
-//        CCLOG(@"Seal created");
-//    }
-//    
-//    return self;
-//}
-
+- (void)didLoadFromCCB {
+    self.physicsBody.collisionType = @"seal";
+}
+-(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
+{
+    CCLOG(@"Something collided with a seal!");
+}
 @end
