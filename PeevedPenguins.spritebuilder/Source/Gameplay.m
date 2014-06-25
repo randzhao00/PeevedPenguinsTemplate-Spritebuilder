@@ -12,6 +12,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
+    CCNode *_contentNode;
 }
 // is called when CCB file has completed loading
 - (void)didLoadFromCCB {
@@ -24,6 +25,11 @@
 // called on every touch in this scene
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     [self launchPenguin];
+}
+
+-(void) retry{
+    //reloads stage
+    [[CCDirector sharedDirector] replaceScene:[CCBReader loadAsScene:@"Gameplay"]];
 }
 
 - (void)launchPenguin {
@@ -40,9 +46,10 @@
     CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
     // ensure followed object is in visible are when starting
+    // ensure followed object is in visible are when starting
     self.position = ccp(0, 0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    [self runAction:follow];
+    [_contentNode runAction:follow];
 }
 
 @end
