@@ -12,8 +12,5 @@
 - (void)didLoadFromCCB {
     self.physicsBody.collisionType = @"seal";
 }
--(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
-{
-    CCLOG(@"Something collided with a seal!");
-}
+
 @end
