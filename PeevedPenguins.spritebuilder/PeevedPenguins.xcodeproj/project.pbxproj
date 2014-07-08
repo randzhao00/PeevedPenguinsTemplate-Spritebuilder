@@ -39,6 +39,7 @@
 		FEBE19A0195A0FB0000143EA /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE199F195A0FB0000143EA /* Penguin.m */; };
 		FEBE19A4195A1025000143EA /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE19A3195A1025000143EA /* Seal.m */; };
 		FEBE19A7195A1BFF000143EA /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE19A6195A1BFE000143EA /* Gameplay.m */; };
+		FEBE19AD195C81C7000143EA /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBE19AC195C81C7000143EA /* WaitingPenguin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		FEBE19A3195A1025000143EA /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
 		FEBE19A5195A1BFE000143EA /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
 		FEBE19A6195A1BFE000143EA /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
+		FEBE19AB195C81C7000143EA /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitingPenguin.h; path = Source/WaitingPenguin.h; sourceTree = "<group>"; };
+		FEBE19AC195C81C7000143EA /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WaitingPenguin.m; path = Source/WaitingPenguin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				B7378993180767190076A88C /* MainScene.m */,
 				FEBE19A5195A1BFE000143EA /* Gameplay.h */,
 				FEBE19A6195A1BFE000143EA /* Gameplay.m */,
+				FEBE19AB195C81C7000143EA /* WaitingPenguin.h */,
+				FEBE19AC195C81C7000143EA /* WaitingPenguin.m */,
 				FEBE199E195A0FB0000143EA /* Penguin.h */,
 				FEBE199F195A0FB0000143EA /* Penguin.m */,
 				FEBE19A2195A1025000143EA /* Seal.h */,
@@ -357,6 +362,7 @@
 			files = (
 				FEBE19A4195A1025000143EA /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				FEBE19AD195C81C7000143EA /* WaitingPenguin.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				FEBE19A0195A0FB0000143EA /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
